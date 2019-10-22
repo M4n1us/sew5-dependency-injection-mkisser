@@ -1,1 +1,0 @@
-# sew5-dependency-injection-mkisser
