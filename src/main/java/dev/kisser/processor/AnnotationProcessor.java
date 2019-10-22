@@ -39,6 +39,7 @@ public class AnnotationProcessor extends AbstractProcessor {
                 .forEach(this::verifyIfNotAnnotatingAnnotation);
         roundEnv.getElementsAnnotatedWith(DependencyConsumer.class)
                 .forEach(this::verifyIfNotAnnotatingAnnotation);
+        return false;
     }
 
     private void verifyIfNotAnnotatingAnnotation(Element element){

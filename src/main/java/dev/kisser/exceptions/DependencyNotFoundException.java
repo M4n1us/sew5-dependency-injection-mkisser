@@ -1,5 +1,7 @@
 package dev.kisser.exceptions;
 
 public class DependencyNotFoundException extends Exception{
-    public DependencyNotFoundException(String )
+    public DependencyNotFoundException(String message){
+        super(message);
+    }
 }
